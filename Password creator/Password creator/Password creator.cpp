@@ -38,6 +38,7 @@ void file_creating(std::string password)
     cin.ignore();
 	std::getline(std::cin, file_name);
 	// используем getline тк в названии могут быть пробелы
+	// Введите свой диск на котором установлен репозиторий
 	out.open("D:/Password creator/passwords/" + file_name);
 	//создаем файл с названием, которое передаем в file_name
 	if (out.is_open())
