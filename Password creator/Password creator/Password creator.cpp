@@ -55,7 +55,6 @@ void file_creating(std::string password)
 
 int main()
 {
-	setlocale(LC_ALL, "Russian");
     srand(static_cast<unsigned int>(time(0))); // Инициализируем генератор случайных чисел
 
     int length;
